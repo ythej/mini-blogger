@@ -1,0 +1,89 @@
+.hide {
+  display: none !important;
+}
+
+#blogs-list {
+	padding: 5px;
+	margin: 5px;
+}
+
+#blogs-list div {
+	background-color: #E1E6E8;
+	margin: 5px #000;
+	margin-left: 0px;
+}
+
+#blogs-list div h1 {
+	margin: 5px;
+	margin-left: 5px;
+	padding: 0px;
+}
+
+#blogs-list div p {
+	padding: 0px;
+	margin: 6px;
+	margin-left: 5px;
+	margin-bottom: 7px;
+}
+
+#blogs-list label {
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+#users-list div {
+	background-color: #E1E6E8;
+	margin: 5px #000;
+	padding:  0px;
+	margin-left: 0px;
+}
+
+#users-list {
+	margin-top: 20px;
+}
+
+#users-list div {
+	background-color: #E1E6E8;
+	margin-bottom: 10px;
+}
+
+#users-list div p {
+	margin: 0px;
+	margin-left: 5px;
+	font-size: 20px;
+}
+
+#users-list div label{
+	margin-left: 15px;
+}
+
+.hot-container {
+	margin: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+a.btn {
+	display: inline-block;
+	color: #666;
+	background-color: #eee;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+a.btn:hover {
+	background-color: #e3e3e3;
+	border-color: rgba(0,0,0,0.5);
+}
+	
+a.btn:active {
+	background-color: #CCC;
+	border-color: rgba(0,0,0,0.9);
+}

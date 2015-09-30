@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/menustyles.css">
+   <link rel="stylesheet" href="css/signupstyles.css">
+   <link rel="stylesheet" href="css/main.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="js/script.js"></script>
+   <title>CSS MenuMaker</title>
+</head>
+<body>
+   <div id='cssmenu'>
+      <ul>
+         <li><a href='index.html'>Home</a></li>
+         <li><a href='signup.html'>Signup</a></li>
+         <li class='active'><a href='#'>Login</a></li>
+         <li><a href='users.html'>Users</a></li>
+      </ul>
+   </div>
+   <div id="form-container" class="container">
+      <form id="signup">
+         <div class="header">
+            <h3>Login</h3>
+         </div>
+         <div class="sep"></div>
+         <div class="inputs">
+            <input id="user-name" type="email" placeholder="Username" autofocus name="username"/>
+            <input id="password" type="password" placeholder="Password" name="password"/>
+            <a id="submit" name="submit" type="submit" href="#">Login</a>
+         </div>
+      </form>
+   </div>
+
+   <div id="result" class="hide" align="center">
+      
+   </div>
+
+   <div id="display-blogs">
+      <div id="post-button" class="hot-container hide">
+            <a id="post-blog-button" href="#" class="btn">Post a blog</a>
+            <a class='btn' href="login.html">Log me out</a>
+      </div>
+
+      <div id="blogs-list">
+      
+      </div>
+   </div>
+
+   <div id="fill-blog" class="hide">
+      <form>
+         <p>Title</p>
+         <input id="post-title" type="text" placeholder="Write title here..." style="width: 100%;height: 30px">
+         <p>Describe</p>
+         <textarea id="post-desc" style="width: 100%;height: 160px" placeholder="Start typing..."></textarea>
+         <p>Tags</p>
+         <input id="post-tags" type="text" placeholder="Seperate tags by comma's" style="width: 100%;height: 30px">
+      </form>
+      <div id="post-button" class="hot-container">
+            <a id="submit-post-button" href="#" class="btn">Post</a>
+      </div>
+   </div>
+   
+   <script src="js/ajax_init.js"></script>
+   <script src="js/login.js"></script>
+   <script src="js/loginstartup.js"></script>  
+</body>
+<html>
